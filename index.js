@@ -7,10 +7,11 @@ const routes = {
   `,
 sertifikat: `
 <h2>Certificates</h2>
-<div class="card p-3">
+<div class="card p-3 bg-dark text-white">
   <p><strong>Learn Basic JavaScript</strong> — Dicoding Academy</p>
   <p>Issued on: 06 August 2025</p>
-  <a href="https://www.dicoding.com/dicodingassets/coursecertificate/284b1a2a62105e6b2bd3b79a4ed0ec972a2f9eaa/view" target="_blank" class="btn btn-primary mb-2">Verify Certificate</a>
+  <a href="https://www.dicoding.com/dicodingassets/coursecertificate/284b1a2a62105e6b2bd3b79a4ed0ec972a2f9eaa/view" 
+     target="_blank" class="btn btn-primary mb-2">Verify Certificate</a>
   <p>In learning the JavaScript material, I already had at least a basic understanding of the fundamental topics. However, my foundation is not evenly distributed, especially in Object-Oriented Programming (OOP), which I am still continuing to study.</p>
 </div>
 `,
@@ -113,3 +114,4 @@ function loadDiscordStatus() {
       document.getElementById('discord-status').textContent = 'Error';
     });
 }
+
