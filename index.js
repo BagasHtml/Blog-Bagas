@@ -1,8 +1,8 @@
 const routes = {
   home: `
     <h2>Home</h2>
-    <div class="card">
-      <p>Welcome to my Website.</p>
+    <div class="card p-3 bg-dark text-white">
+      <marquee>Welcome to my Website.</marquee>
     </div>
   `,
 sertifikat: `
@@ -114,5 +114,6 @@ function loadDiscordStatus() {
       document.getElementById('discord-status').textContent = 'Error';
     });
 }
+
 
 
