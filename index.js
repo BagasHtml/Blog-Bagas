@@ -41,7 +41,7 @@ kontak: `
     <div class="card">
       <p>I’m a student at SMK Taruna Bangsa in Bekasi, and I love learning new things especially in the world of technology and programming.</p>
     </div>
-    <div class="card">
+    <div class="card p-3 bg-dark text-white">
       <h3>Education</h3>
       <ul>
         <li>MIT ATTAQWA 01 Ujung Harapan, Bekasi (2015–2021)</li>
@@ -49,7 +49,7 @@ kontak: `
         <li>SMK Taruna Bangsa, Bekasi (2024–present)</li>
       </ul>
     </div>
-    <div class="card">
+    <div class="card p-3 bg-dark text-white">
       <h3>Extracurricular Activities</h3>
       <ul>
         <li>Paskibra (Flag-Raising Team)</li>
@@ -58,7 +58,7 @@ kontak: `
         <li>Tahfiz (Qur’an Memorization)</li>
       </ul>
     </div>
-    <div class="card">
+    <div class="card p-3 bg-dark text-white">
       <h3>Front-End Skills Progress</h3>
       <p>HTML (Expert) — 90%</p>
       <p>CSS (Beginner) — 70%</p>
@@ -114,4 +114,5 @@ function loadDiscordStatus() {
       document.getElementById('discord-status').textContent = 'Error';
     });
 }
+
 
