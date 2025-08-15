@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Blog Bagas</title>
+  <link rel="icon" href="kyouka_uzen_render_by_supermarioshows_dgvn95d-fullview.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo"></div>
+      <h1>Blog Bagas</h1>
+    </div>
+    <nav class="menu d-flex gap-3 flex-wrap">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#sertifikat">Sertifikat</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="d-flex align-items-center">
+      <div class="presence me-3">
+        <div class="dot" id="discord-dot"></div>
+        <span id="discord-status">Loading...</span>
+      </div>
+      <button id="theme-toggle" class="btn btn-outline-light ms-3">
+        <i class="bi bi-moon-fill"></i>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <img src="formal.png" alt="Foto Bagas Tresna" class="profile-img">
+    </div>
+    <div class="hero-right">
+      <h1>Hello World. I'm <span>Bagas Tresna Nanda Mustida Sakli</span></h1>
+      <p>Vocational High School Student | Web Development & Code Learner</p>
+      <div class="hero-buttons">
+        <a href="https://saweria.co/BagasTresna" target="_blank" class="btn btn-warning">Donasi via Saweria</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap" id="content"></main>
+
+  <footer class="wrap text-center py-3">
+    <p>© 2025 Bagas Tresna.</p>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>

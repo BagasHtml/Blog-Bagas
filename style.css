@@ -1,0 +1,59 @@
+    @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap);
+
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s; }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 10px 20px;
+      gap: 10px;
+    }
+
+    .brand { display: flex; align-items: center; }
+    .brand .logo { width: 20px; height: 20px; border-radius: 50%; background-color: #4d90fe; margin-right: 10px; }
+    .brand h1 { font-weight: 600; font-size: 1.5rem; margin: 0; text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
+
+    .menu a { margin: 0 10px; text-decoration: none; color: inherit; }
+    .menu a.active { font-weight: bold; }
+
+    main, footer, .card { transition: background-color 0.3s, color 0.3s; padding: 10px; border-radius: 8px; }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .profile-img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; }
+
+    .hero h1 { font-size: 1.8rem; margin-bottom: 10px; }
+    .hero span { color: orange; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+
+    body.light-mode { background-color: #ffffff; color: #000; }
+    body.light-mode header { background-color: #f9f9f9; }
+    body.light-mode .card, body.light-mode footer { background-color: rgba(255, 255, 255, 0.85); color: #000; }
+
+    body.dark-mode { background-color: #121212; color: #fff; }
+    body.dark-mode header { background-color: #1e1e1e; }
+    body.dark-mode .card, body.dark-mode footer { background-color: rgba(18, 18, 18, 0.85); color: #fff; }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .hero { flex-direction: column; text-align: center; }
+      .hero img { width: 140px; height: 140px; }
+      .hero h1 { font-size: 1.5rem; }
+      .menu { flex-basis: 100%; justify-content: center; gap: 15px; margin-top: 10px; }
+      .hero-buttons .btn { width: 100%; max-width: 200px; margin-top: 10px; }
+    }
+
+    @media (max-width: 480px) {
+      .brand h1 { font-size: 1.2rem; }
+      .hero h1 { font-size: 1.2rem; }
+      .hero p { font-size: 0.9rem; }
+    }
